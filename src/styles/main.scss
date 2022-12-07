@@ -1,10 +1,129 @@
-// @import "base";
-// You need the base only when you are not using bootstrap. In that case, go to _base.scss
-// to customize it as you may want.
-
 @import "variables";
-@import "base.scss";
+@import "base";
 // @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// Write your sass code here or import partials
+header {
+    h1{
+        @include top-bottom;
+    }
 
+    nav {
+
+        ul{
+
+            li {
+
+            }
+        }
+    }
+
+    #imageheader {
+
+    }
+}
+
+main {
+    .home {
+
+        &text {
+            
+            p {
+
+            }
+        }
+
+        &image {
+
+        }
+    }
+
+   .aboutme {
+        &text {
+
+            h2 {
+
+            }
+        
+            p {
+        
+            }
+
+        }
+   
+   } 
+   .cardcontainer {
+
+    h2 {
+
+    }
+
+    .card {
+
+        h3 {
+
+        }
+
+        p {
+
+        }
+    }
+   }
+
+   .cantactcontainer {
+
+    h2 {
+
+    }
+
+    form {
+
+        fieldset {
+
+            legend {
+
+            }
+            .fullname {
+
+            }
+
+            .email {
+
+            }
+
+            .commission {
+
+            }
+
+            .arttrade {
+
+            }
+
+            .message {
+
+            }
+
+            button {
+
+            }
+        }
+    }
+   }
+}
+
+footer {
+    @include top-bottom;
+
+    p{ 
+
+    }
+}
+
+// Breaking Points
+
+@media screen (min-width:768px){
+    
+}
+
+@media screen (min-width:992px){
+    
+}

@@ -10,4 +10,13 @@
 
 body {
   font-size: 1.6rem;
+}
+
+header h1 {
+  background-color: #000000;
+  color: #ffffff;
+}
+footer {
+  background-color: #000000;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */

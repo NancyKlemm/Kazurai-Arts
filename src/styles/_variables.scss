@@ -5,6 +5,11 @@ $primary: #ffffff;
 $secondary: #000000;
 $danger: #36ffb5;
 
+@mixin top-bottom { 
+    background-color: $secondary;
+    color: $primary;
+}
+
 // $grid-breakpoints: (
 //   xs: 0,
 //   sm: 576px,
