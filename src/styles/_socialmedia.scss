@@ -1,0 +1,18 @@
+.socialmediabox {
+    padding-top: 10px;
+    text-align: center;
+    margin-block: 15px;
+.socialmedia {
+  display: flex;
+  place-content: center;
+  list-style-type: none;
+  gap: 10px;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  li {
+    img{
+        width: 40px;
+    }
+  }
+}
+}

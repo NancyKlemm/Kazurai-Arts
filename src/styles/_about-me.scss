@@ -1,0 +1,25 @@
+.aboutme {
+    padding-top: 50px;
+    padding-inline: 5vw;
+    padding-bottom: 30px;
+    background-color: $secondary;
+    color: $primary;
+
+    .aboutme_text {
+        display: flex;
+        flex-wrap: wrap;
+    place-content: center;
+
+    p {
+        margin-top: 30px;
+        span {
+            color: $danger-card;
+        }
+    }
+    }
+    
+    #about-me {
+        margin-bottom: 10px;
+        
+    }
+}

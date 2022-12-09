@@ -1,0 +1,42 @@
+#fanartcontainer {
+  background-color: $primary;
+  padding-inline: 5vw;
+  padding-block: 30px;
+}
+
+.cardcontainer {
+  display: block;
+  margin-right: 10px;
+
+  .card {
+    background-color: $secondary;
+    color: $primary;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    text-align: center;
+    width: 335px;
+    img {
+      width: 335px;
+    }
+    p {
+      padding-bottom: 15px;
+      padding-top: 5px;
+    }
+  }
+
+  .fanartbutton {
+    all: unset;
+    background-color: $danger-card;
+    width: 100px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: $secondary;
+    text-align: center;
+    &:hover {
+      color: $primary;
+    }
+  }
+}

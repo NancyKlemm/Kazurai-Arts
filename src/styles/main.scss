@@ -1,129 +1,26 @@
 @import "variables";
 @import "base";
+@import "./header";
+@import "./about-me";
+@import "./fanarts";
+@import "./chibis";
+@import "./contact";
+@import "./socialmedia";
+@import "./footer";
+
 // @import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;400;500;700&display=swap');
 
-header {
-    h1{
-        @include top-bottom;
-    }
-
-    nav {
-
-        ul{
-
-            li {
-
-            }
-        }
-    }
-
-    #imageheader {
-
-    }
+body {
+    position:relative;
 }
+
+// Main
 
 main {
-    .home {
-
-        &text {
-            
-            p {
-
-            }
-        }
-
-        &image {
-
-        }
-    }
-
-   .aboutme {
-        &text {
-
-            h2 {
-
-            }
-        
-            p {
-        
-            }
-
-        }
-   
-   } 
-   .cardcontainer {
-
-    h2 {
-
-    }
-
-    .card {
-
-        h3 {
-
-        }
-
-        p {
-
-        }
-    }
-   }
-
-   .cantactcontainer {
-
-    h2 {
-
-    }
-
-    form {
-
-        fieldset {
-
-            legend {
-
-            }
-            .fullname {
-
-            }
-
-            .email {
-
-            }
-
-            .commission {
-
-            }
-
-            .arttrade {
-
-            }
-
-            .message {
-
-            }
-
-            button {
-
-            }
-        }
-    }
-   }
-}
-
-footer {
-    @include top-bottom;
-
-    p{ 
-
-    }
-}
-
-// Breaking Points
-
-@media screen (min-width:768px){
+    font-size: 2rem;
+    display: block;
     
-}
-
-@media screen (min-width:992px){
     
 }
