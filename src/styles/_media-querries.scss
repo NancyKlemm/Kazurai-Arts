@@ -1,0 +1,162 @@
+// ================= Tablet ==================== //
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 5rem;
+    margin-left: 15px;
+  }
+
+  #menu_button + label .fa-bars {
+    margin-right: 30px;
+  }
+  #menu_button + label .fa-xmark {
+    margin-right: 35px;
+  }
+
+  nav ul {
+    margin-top: 15px;
+    li {
+      a {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  #fanarts {
+    padding-left: 28px;
+  }
+
+  .cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .card {
+      width: 330px;
+      height: auto;
+    }
+  }
+
+  .fanartbutton {
+    margin-left: 4vw;
+  }
+
+  #contact {
+    margin-left: 10px;
+  }
+
+  #contactcontainer{
+    
+    form {
+        width:670px;
+       
+
+      
+    }
+  }
+
+  input[type="text"],
+  input[type="email"], textarea {
+    width: 670px; }
+    
+
+  .socialmediabox {
+    padding-left: 37px;
+  }
+
+  footer {
+    padding-left: 5vw;
+  }
+}
+
+// ================= Desktop ==================== //
+
+@media screen and (min-width: 1024px) {
+
+    #headerimagebox {
+        padding-bottom: 500px;
+    }
+
+    h1 {
+        margin-left: 25px;
+    }
+
+
+  #headerbox {
+
+   
+
+    nav {
+      position: relative;
+
+      label,
+      input {
+        display: none;
+      }
+
+      ul {
+        display: inline;
+        position: relative;
+        margin-right: 35px;
+
+        li {
+          display: inline;
+          font-size: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .aboutme {
+    padding-top: 260px;
+    padding-bottom: 60px;
+  }
+
+  #about-me {
+    padding-right: 30px;
+    width: 300px;
+    
+  }
+
+  .card {
+    width: 30%;
+    height: auto;
+  }
+
+  #contact {
+    text-align: center;
+  }
+
+  #contactcontainer{
+    
+    form {
+        width:670px;
+       
+
+      
+    }
+  }
+
+  input[type="text"],
+  input[type="email"], textarea {
+    width: 670px;
+    
+  }  
+
+  .socialmediabox {
+    text-align: center;
+    
+    .socialmedia {
+        place-content: center;
+    }
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    place-content: center;
+    text-align: center;
+  }
+
+}

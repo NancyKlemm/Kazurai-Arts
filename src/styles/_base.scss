@@ -10,29 +10,7 @@
 
 body {
   font-size: 1.6rem;
-  font-family: 'Yantramanav', sans-serif;
+  font-family: "Yantramanav", sans-serif;
   font-weight: 500;
   color: $secondary;
-  
 }
-
-// // Breaking Points
-
-// @media screen and (min-width:992px){
-    
-// }
-
-@media screen and (min-width:992px){
-    
-  li {
-      display: inline-block;
-      width: 6rem;
-      
-      padding: 1rem;
-    }
-    #menu_button,
-    label {
-      display: none;
-    }
-  }
-

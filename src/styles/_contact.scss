@@ -1,80 +1,67 @@
 #contactcontainer {
-    background-color: $secondary;
-    color: $primary;
-    padding-top: 25px;
-    padding-inline: 5vw;
-    padding-bottom: 25px;
+    @include top-bottom;
+  padding-top: 25px;
+  padding-inline: 5vw;
+  padding-bottom: 25px;
 
-    #contact {
-        padding-bottom: 15px;
+  #contact {
+    padding-bottom: 15px;
+  }
+
+  form {
+    width: 337px;
+    margin: 0 auto;
+
+    fieldset {
+      border: none;
+      width: 320px;
+
+      padding-bottom: 20px;
     }
 
-    form {
-        width: 100vw;
-        margin: 0 auto;
-        
-
-    
-        fieldset {
-            border: none;
-            
-          
-            padding-bottom: 20px;
-        }
-        
-        // legend {
-        //     text-align: center;
-        //     font-weight: 700;
-        // }
-        
-            button {
-                all: unset;
-                background-color: $danger-card;
-                width: 100px;
-                margin-top: 30px;
-                padding: 10px;
-                border-radius: 12px;
-                font-size: 2.3rem;
-                font-weight: 700;
-                color: $secondary;
-                text-align: center;
-                &:hover {
-                    color: $primary;
-                }
-            }
-        
-        }
-        
+    button {
+      all: unset;
+      background-color: $danger-card;
+      width: 100px;
+      margin-top: 30px;
+      padding: 10px;
+      border-radius: 12px;
+      font-size: 2.3rem;
+      font-weight: 700;
+      color: $secondary;
+      text-align: center;
+      transition: color 300ms ease-in;
+      &:hover {
+        color: $primary;
+      }
     }
-
-
-label{
-    display: flex;
+  }
 }
 
-.arttrade, .commission {
-    display: flex;
-    column-gap: 10px;
+label {
+  display: flex;
 }
 
-input:focus {
-    border: 2px solid rgb(0, 26, 255);
+.arttrade,
+.commission {
+  display: flex;
+  column-gap: 10px;
+}
+
+#contact {
+    margin-left: 48px;
 }
 
 input[type="text"],
-input[type="email"]{
-    border: none;
-    width: 335px;
-    height: 30px;
-    padding: 15px;
+input[type="email"] {
+  border: none;
+  width: 337px;
+  height: 30px;
+  padding: 15px;
 }
 
 textarea {
-    border: none;
-    width: 335px;
-    padding: 5px;
+  border: none;
+  width: 337px;
+  padding: 5px;
 }
-
-
-
-

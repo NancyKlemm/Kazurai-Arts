@@ -2,8 +2,9 @@
 
 footer {
     @include top-bottom;
-    padding: 1rem;
+    padding-left: 15px;
     padding-block: 30px;
+    width: 100vw;
     
     font-size: 2rem;
     p:nth-child(1) {
