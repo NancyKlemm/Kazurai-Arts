@@ -1,9 +1,13 @@
 #contactcontainer {
     background-color: $secondary;
     color: $primary;
-    padding-top: 50px;
+    padding-top: 25px;
     padding-inline: 5vw;
     padding-bottom: 25px;
+
+    #contact {
+        padding-bottom: 15px;
+    }
 
     form {
         width: 100vw;
@@ -68,6 +72,7 @@ input[type="email"]{
 textarea {
     border: none;
     width: 335px;
+    padding: 5px;
 }
 
 

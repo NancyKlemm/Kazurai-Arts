@@ -175,6 +175,7 @@ a {
 .cardcontainer {
   display: block;
   margin-right: 10px;
+  padding-top: 20px;
 }
 .cardcontainer .card {
   background-color: #25251f;
@@ -183,27 +184,48 @@ a {
   margin-right: 10px;
   text-align: center;
   width: 335px;
+  overflow: hidden;
+  transition: transform 300ms ease-in;
 }
 .cardcontainer .card img {
   width: 335px;
+}
+.cardcontainer .card img:hover {
+  transform: scale(1.2);
 }
 .cardcontainer .card p {
   padding-bottom: 15px;
   padding-top: 5px;
 }
 
-#chibicontainer {
-  background-color: #ffffff;
-  padding-inline: 5vw;
-  padding-block: 30px;
+.fanartbutton {
+  all: unset;
+  background-color: #6befaf;
+  width: 150px;
+  color: #25251f;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #25251f;
+  text-align: center;
+}
+.fanartbutton a {
+  color: #25251f;
+}
+.fanartbutton:hover {
+  color: #ffffff;
 }
 
 #contactcontainer {
   background-color: #25251f;
   color: #ffffff;
-  padding-top: 50px;
+  padding-top: 25px;
   padding-inline: 5vw;
   padding-bottom: 25px;
+}
+#contactcontainer #contact {
+  padding-bottom: 15px;
 }
 #contactcontainer form {
   width: 100vw;
@@ -254,6 +276,7 @@ input[type=email] {
 textarea {
   border: none;
   width: 335px;
+  padding: 5px;
 }
 
 .socialmediabox {
@@ -277,7 +300,10 @@ footer {
   background-color: #25251f;
   color: #ffffff;
   padding: 1rem;
-  font-family: "Caveat", cursive;
+  padding-block: 30px;
+  font-size: 2rem;
+}
+footer p:nth-child(1) {
   font-size: 2.5rem;
 }
 
