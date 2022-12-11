@@ -1,15 +1,21 @@
 // ================= Tablet ==================== //
 
 @media screen and (min-width: 768px) {
+  body {
+    font-size: 2rem;
+  }
+
+  // Header
+
   h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     margin-left: 15px;
   }
 
-  #menu_button + label .fa-bars {
+  #menu-button + label .fa-bars {
     margin-right: 30px;
   }
-  #menu_button + label .fa-xmark {
+  #menu-button + label .fa-xmark {
     margin-right: 35px;
   }
 
@@ -22,11 +28,20 @@
     }
   }
 
-  #fanarts {
-    padding-left: 28px;
+// About Me
+
+  .mobile-box {
+    align-items: center;
+    gap: 60px;
+  }
+  .aboutme {
+    padding-top: 100px;
+    flex-direction: column;
   }
 
-  .cardcontainer {
+// Fanarts
+
+  .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -37,35 +52,18 @@
     }
   }
 
-  .fanartbutton {
-    margin-left: 4vw;
-  }
-
-  #contact {
-    margin-left: 10px;
-  }
-
-  #contactcontainer{
-    
+  #contact-container {
     form {
-        width:670px;
-       
-
-      
+      width: 670px;
     }
   }
 
+// Contact
+
   input[type="text"],
-  input[type="email"], textarea {
-    width: 670px; }
-    
-
-  .socialmediabox {
-    padding-left: 37px;
-  }
-
-  footer {
-    padding-left: 5vw;
+  input[type="email"],
+  textarea {
+    width: 670px;
   }
 }
 
@@ -73,19 +71,17 @@
 
 @media screen and (min-width: 1024px) {
 
-    #headerimagebox {
-        padding-bottom: 500px;
-    }
+// Header
 
-    h1 {
-        margin-left: 25px;
-    }
+  #header-image-box {
+    padding-bottom: 500px;
+  }
 
+  h1 {
+    margin-left: 25px;
+  }
 
-  #headerbox {
-
-   
-
+  #header-box {
     nav {
       position: relative;
 
@@ -107,56 +103,46 @@
     }
   }
 
+// About Me
+
   .aboutme {
-    padding-top: 260px;
+    padding-top: 300px;
     padding-bottom: 60px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 20px;
+
+    .aboutme-content {
+      align-items: center;
+      p {
+        width: 300px;
+      }
+    }
   }
 
-  #about-me {
-    padding-right: 30px;
-    width: 300px;
-    
-  }
+// Fanarts
 
   .card {
     width: 30%;
     height: auto;
   }
 
-  #contact {
-    text-align: center;
-  }
+// Contact
 
-  #contactcontainer{
-    
+  #contact-container {
     form {
-        width:670px;
-       
-
-      
+      width: 900px;
+      fieldset {
+        width: 800px;
+        margin: 0 auto;
+        input[type="text"],
+        input[type="email"],
+        textarea {
+          width: 800px;
+        }
+      }
     }
   }
-
-  input[type="text"],
-  input[type="email"], textarea {
-    width: 670px;
-    
-  }  
-
-  .socialmediabox {
-    text-align: center;
-    
-    .socialmedia {
-        place-content: center;
-    }
-  }
-
-  footer {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    place-content: center;
-    text-align: center;
-  }
-
 }

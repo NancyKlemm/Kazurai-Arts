@@ -1,11 +1,13 @@
-#contactcontainer {
-    @include top-bottom;
+#contact-container {
+  @include top-bottom;
   padding-top: 25px;
   padding-inline: 5vw;
   padding-bottom: 25px;
 
   #contact {
     padding-bottom: 15px;
+    margin-left: 0px;
+    text-align: center;
   }
 
   form {
@@ -15,53 +17,57 @@
     fieldset {
       border: none;
       width: 320px;
-
       padding-bottom: 20px;
+
+      span {
+        color: $danger-card;
+      }
+
+      label {
+        display: flex;
+      }
+
+      input[type="text"],
+      input[type="email"] {
+        border: none;
+        width: 337px;
+        height: 35px;
+        padding: 15px;
+      }
+
+      .arttrade,
+      .commission {
+        display: flex;
+        column-gap: 10px;
+      }
+
+      textarea {
+        border: none;
+        width: 337px;
+        padding: 5px;
+      }
     }
 
-    button {
-      all: unset;
-      background-color: $danger-card;
-      width: 100px;
-      margin-top: 30px;
-      padding: 10px;
-      border-radius: 12px;
-      font-size: 2.3rem;
-      font-weight: 700;
-      color: $secondary;
-      text-align: center;
-      transition: color 300ms ease-in;
-      &:hover {
-        color: $primary;
+    .submit-button-section {
+      display: flex;
+      place-content: center;
+
+      .submit-button {
+        all: unset;
+        background-color: $danger-card;
+        width: 100px;
+        margin-top: 30px;
+        padding: 10px;
+        border-radius: 12px;
+        font-size: 2.3rem;
+        font-weight: 700;
+        color: $secondary;
+        text-align: center;
+        transition: color 300ms ease-in;
+        &:hover {
+          color: $primary;
+        }
       }
     }
   }
-}
-
-label {
-  display: flex;
-}
-
-.arttrade,
-.commission {
-  display: flex;
-  column-gap: 10px;
-}
-
-#contact {
-    margin-left: 48px;
-}
-
-input[type="text"],
-input[type="email"] {
-  border: none;
-  width: 337px;
-  height: 30px;
-  padding: 15px;
-}
-
-textarea {
-  border: none;
-  width: 337px;
-  padding: 5px;
 }

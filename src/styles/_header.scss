@@ -1,13 +1,14 @@
 header {
   width: 100vw;
-  height: 410px;
+  height: 300px;
+  // 410
   background-color: $secondary;
 
-  .headercontent {
+  .header-content {
     position: relative;
   }
 
-  #headerbox {
+  #header-box {
     @include top-bottom;
     display: flex;
     justify-content: space-between;
@@ -21,49 +22,85 @@ header {
       font-family: "Caveat", cursive;
       font-size: 3.5rem;
       padding-left: 15px;
-      
-      
     }
-
   }
 
-  #menu_button {
+  #menu-button {
     display: none;
   }
 
-  nav {
+  // Navigation  // Burgermenu //
 
+  #menu-button:checked + label .fa-bars {
+    display: none;
+  }
+
+  #menu-button:hover + label .fa-bars {
+    cursor: pointer;
+    color: $danger-card;
+  }
+
+  #menu-button:checked + label .fa-xmark {
+    display: inline;
+  }
+
+  #menu-button:hover + label .fa-xmark {
+    cursor: pointer;
+    color: $danger-card;
+  }
+
+  #menu-button + label .fa-bars {
+    display: inline;
+    margin-right: 19px;
+    transition: color 300ms ease-in;
+  }
+  #menu-button + label .fa-xmark {
+    display: none;
+    margin-right: 23px;
+    transition: color 300ms ease-in;
+  }
+
+  #menu-button ~ ul {
+    display: none;
+  }
+  #menu-button:checked ~ ul {
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    transition: all 300ms;
+  }
+
+  nav {
     ul {
       background-color: $secondary;
       margin-bottom: 10px;
-    
-    li {
-      background-color: $secondary;
-      padding: 10px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-weight: bolder;
-      width: 100vw;
-      position: relative;
-      list-style-type: none;
-      text-align: center;
-      padding-bottom: 20px;
 
-      a {
-        transition: color 300ms;
+      li {
+        background-color: $secondary;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        width: 100vw;
+        position: relative;
+        list-style-type: none;
+        text-align: center;
+        padding-bottom: 20px;
+
+        a {
+          transition: color 300ms;
+        }
+        &:hover a {
+          color: $danger-card;
+        }
       }
-      &:hover a {
-        color: $danger-card;
-      }
-    }
     }
   }
 
-
-
-  #headerimagebox {
+  #header-image-box {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: center;
     background-image: url(./images/headerpic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,86 +108,7 @@ header {
     height: 250px;
     position: relative;
     top: 10vh;
-    
-
-    .itembox {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      bottom: -10px;
-      button {
-        all: unset;
-        position: absolute;
-        display: flex;
-        background-color: $danger-card;
-        width: 200px;
-        height: auto;
-        border-radius: 12px;
-        padding: 15px;
-        margin-bottom: 10px;
-        font-size: 2.3rem;
-        font-weight: 700;
-        place-content: center;
-        
-
-        
-        a {
-          color: $secondary;
-          transition: color 300ms ease-in;
-          
-        }
-        &:hover a {
-          color: $primary;
-        }
-      }
-    }
   }
-}
-
-
-
-// Navigation
-
-// Burgermenu
-
-#menu_button:checked + label .fa-bars {
-  display: none;
-}
-
-#menu_button:hover + label .fa-bars {
-  cursor: pointer;
-  color: $danger-card;
-}
-
-#menu_button:checked + label .fa-xmark {
-  display: inline;
-}
-
-#menu_button:hover + label .fa-xmark {
-  cursor: pointer;
-  color: $danger-card;
-}
-
-#menu_button + label .fa-bars {
-  display: inline;
-  margin-right: 19px;
-  transition: color 300ms ease-in;
-}
-#menu_button + label .fa-xmark {
-  display: none;
-  margin-right: 23px;
-  transition: color 300ms ease-in;
-}
-
-#menu_button ~ ul {
-  display: none;
-}
-#menu_button:checked ~ ul {
-  display: block;
-  position: absolute;
-  top: 60px;
-  right: 0px;
-  transition: all 300ms;
 }
 
 a {

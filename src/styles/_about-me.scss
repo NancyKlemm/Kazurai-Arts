@@ -1,23 +1,53 @@
 .aboutme {
-  padding-top: 50px;
   padding-inline: 5vw;
   padding-bottom: 30px;
   @include top-bottom;
+  display: flex;
+  flex-wrap: wrap;
 
-  .aboutme_text {
+  .aboutme-content {
     display: flex;
     flex-wrap: wrap;
     place-content: center;
+    gap: 15px;
+    margin-top: 15px;
+
+    .mobile-box {
+      display: flex;
+      flex-wrap: wrap;
+      place-content: center;
+
+      .commission-button {
+        display: flex;
+        background-color: $danger-card;
+        width: 250px;
+        height: auto;
+        border-radius: 12px;
+        padding: 10px;
+        font-size: 2.3rem;
+        font-weight: 700;
+        place-content: center;
+        margin-top: 10px;
+
+        a {
+          color: $secondary;
+          transition: color 300ms ease-in;
+        }
+        &:hover a {
+          color: $primary;
+        }
+      }
+
+      #about-me {
+        width: 250px;
+        margin: 30px;
+      }
+    }
 
     p {
-      margin-top: 30px;
       span {
         color: $danger-card;
       }
     }
-  }
-
-  #about-me {
-    margin-bottom: 10px;
   }
 }
