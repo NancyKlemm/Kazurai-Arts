@@ -28,7 +28,7 @@
     }
   }
 
-// About Me
+  // About Me
 
   .mobile-box {
     align-items: center;
@@ -39,7 +39,7 @@
     flex-direction: column;
   }
 
-// Fanarts
+  // Fanarts
 
   .card-container {
     display: flex;
@@ -52,24 +52,35 @@
     }
   }
 
+  // Contact
+
   #contact-container {
-    form {
-      width: 670px;
-    }
-  }
+    //   form {
+
+    //     margin: 0 auto;
+    //     border: 2px solid red;
+    // }
+      form {
+
+        width: 670px;
+        fieldset {
+          input[type="text"],
+          input[type="email"],
+          textarea {
+            width: 670px;
+          }
+        }
+      }
 
 
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 670px;
+    
   }
 }
 
 // ================= Desktop ==================== //
 
 @media screen and (min-width: 1024px) {
-// Header
+  // Header
 
   #header-image-box {
     padding-bottom: 500px;
@@ -101,7 +112,7 @@
     }
   }
 
-// About Me
+  // About Me
 
   .aboutme {
     padding-top: 300px;
@@ -120,14 +131,14 @@
     }
   }
 
-// Fanarts
+  // Fanarts
 
   .card {
     width: 30%;
     height: auto;
   }
 
-// Contact
+  // Contact
 
   #contact-container {
     form {
