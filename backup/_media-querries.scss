@@ -1,0 +1,157 @@
+// ================= Tablet ==================== //
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 2rem;
+  }
+
+  // Header
+
+  h1 {
+    font-size: 3rem;
+    margin-left: 15px;
+  }
+
+  #menu-button + label .fa-bars {
+    margin-right: 30px;
+  }
+  #menu-button + label .fa-xmark {
+    margin-right: 35px;
+  }
+
+  nav ul {
+    margin-top: 15px;
+    li {
+      a {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  // About Me
+
+  .mobile-box {
+    align-items: center;
+    gap: 60px;
+  }
+  .aboutme {
+    padding-top: 100px;
+    flex-direction: column;
+  }
+
+  // Fanarts
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .card {
+      width: 330px;
+      height: auto;
+    }
+  }
+
+  // Contact
+
+  #contact-container {
+    //   form {
+
+    //     margin: 0 auto;
+    //     border: 2px solid red;
+    // }
+      form {
+
+        width: 670px;
+        fieldset {
+          input[type="text"],
+          input[type="email"],
+          textarea {
+            width: 670px;
+          }
+        }
+      }
+
+
+    
+  }
+}
+
+// ================= Desktop ==================== //
+
+@media screen and (min-width: 1024px) {
+  // Header
+
+  #header-image-box {
+    padding-bottom: 500px;
+  }
+
+  h1 {
+    margin-left: 25px;
+  }
+
+  #header-box {
+    nav {
+      position: relative;
+
+      label,
+      input {
+        display: none;
+      }
+
+      ul {
+        display: inline;
+        position: relative;
+        margin-right: 35px;
+
+        li {
+          display: inline;
+          font-size: 0.5rem;
+        }
+      }
+    }
+  }
+
+  // About Me
+
+  .aboutme {
+    padding-top: 300px;
+    padding-bottom: 60px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 20px;
+
+    .aboutme-content {
+      align-items: center;
+      p {
+        width: 300px;
+      }
+    }
+  }
+
+  // Fanarts
+
+  .card {
+    width: 30%;
+    height: auto;
+  }
+
+  // Contact
+
+  #contact-container {
+    form {
+      width: 900px;
+      fieldset {
+        width: 800px;
+        margin: 0 auto;
+        input[type="text"],
+        input[type="email"],
+        textarea {
+          width: 800px;
+        }
+      }
+    }
+  }
+}

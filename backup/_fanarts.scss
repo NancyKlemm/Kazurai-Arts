@@ -1,0 +1,83 @@
+#fanart-container {
+  background-color: $primary;
+  padding-block: 30px;
+  padding-inline: 15px;
+
+  #fanarts {
+    font-family: "Caveat", cursive;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 10px;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 92vw;
+    gap: 15px;
+    align-items: flex-start;
+
+    .card {
+      @include top-bottom;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      overflow: hidden;
+
+      .image-container {
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 100%;
+          object-fit: cover;
+          transition: transform 500ms ease-in;
+          overflow: hidden;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+      p {
+        padding-bottom: 15px;
+        padding-top: 5px;
+      }
+    }
+
+    // .card-trigger_anni {
+    //  height: 401px;
+    // }
+
+  }
+
+  .fanart-button-section {
+    display: flex;
+    justify-content: center;
+
+    .fanart-button {
+      all: unset;
+      background-color: $danger-card;
+      width: 115px;
+      color: $secondary;
+      padding: 15px;
+      border-radius: 12px;
+      font-size: 2.3rem;
+      font-weight: 700;
+      text-align: center;
+
+      a {
+        color: $secondary;
+        transition: color 300ms ease-in;
+      }
+      &:hover a {
+        color: $primary;
+      }
+    }
+  }
+}

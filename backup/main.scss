@@ -1,0 +1,26 @@
+@import "variables";
+@import "base";
+@import "./header";
+@import "./about-me";
+@import "./fanarts";
+@import "./contact";
+@import "./socialmedia";
+@import "./footer";
+@import "./media-querries";
+
+// @import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;400;500;700&display=swap');
+
+body {
+    position:relative;
+}
+
+// Main
+
+main {
+    font-size: 2rem;
+    display: block;
+    
+    
+}

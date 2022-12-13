@@ -1,0 +1,12 @@
+// You can overwrite bootstrap default values here.
+// Refer node_modules/bootstrap/scss/_variables for a full list of variables.
+
+$primary: #ffffff;
+$secondary: #25251f;
+$danger-card: #6befaf;
+
+@mixin top-bottom { 
+    background-color: $secondary;
+    color: $primary;
+}
+
