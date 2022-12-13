@@ -372,9 +372,9 @@ footer p:nth-child(1) {
   #contact-container form {
     width: 670px;
   }
-  input[type=text],
-input[type=email],
-textarea {
+  #contact-container form fieldset input[type=text],
+#contact-container form fieldset input[type=email],
+#contact-container form fieldset textarea {
     width: 670px;
   }
 }
