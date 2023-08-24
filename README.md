@@ -13,8 +13,8 @@
 - CSS/SCSS
 
 ### zur Website
-veröffentlicht auf GitHub Pages
-[Kazurai Arts](https://nancyklemm.github.io/Kazurai-Arts/)
+- veröffentlicht auf GitHub Pages
+- [Kazurai Arts](https://nancyklemm.github.io/Kazurai-Arts/)
 
 #### Kazurai Arts erstellt von
 [Nancy Klemm](https://github.com/NancyKlemm)
