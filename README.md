@@ -12,7 +12,7 @@
 - HTML
 - CSS/SCSS
 
-## zur Website
+### zur Website
 [Kazurai Arts](https://nancyklemm.github.io/Kazurai-Arts/)
 
 #### Kazurai Arts erstellt von
