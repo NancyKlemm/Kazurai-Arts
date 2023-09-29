@@ -6,6 +6,8 @@
   }
 
   // Header
+header {
+  
 
   h1 {
     font-size: 3rem;
@@ -28,15 +30,31 @@
     }
   }
 
+  #header-image-box {
+    height: 400px;
+  }
+}
+
   // About Me
 
   .mobile-box {
     align-items: center;
     gap: 60px;
   }
+
+  
+
   .aboutme {
     padding-top: 100px;
     flex-direction: column;
+.aboutme-content {
+  .mobile-box {
+    .commission-button {
+      margin-top: 0px;
+    }
+  }
+}
+    
   }
 
   // Fanarts
@@ -81,7 +99,7 @@
 
 @media screen and (min-width: 1024px) {
   // Header
-
+header {
   #header-image-box {
     padding-bottom: 500px;
   }
@@ -111,11 +129,11 @@
       }
     }
   }
-
+}
   // About Me
 
   .aboutme {
-    padding-top: 300px;
+    padding-top: 215px;
     padding-bottom: 60px;
     flex-wrap: nowrap;
     flex-direction: column;

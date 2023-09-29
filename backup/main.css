@@ -373,8 +373,8 @@ footer p:nth-child(1) {
     width: 670px;
   }
   #contact-container form fieldset input[type=text],
-#contact-container form fieldset input[type=email],
-#contact-container form fieldset textarea {
+  #contact-container form fieldset input[type=email],
+  #contact-container form fieldset textarea {
     width: 670px;
   }
 }
@@ -389,7 +389,7 @@ footer p:nth-child(1) {
     position: relative;
   }
   #header-box nav label,
-#header-box nav input {
+  #header-box nav input {
     display: none;
   }
   #header-box nav ul {
@@ -427,8 +427,8 @@ footer p:nth-child(1) {
     margin: 0 auto;
   }
   #contact-container form fieldset input[type=text],
-#contact-container form fieldset input[type=email],
-#contact-container form fieldset textarea {
+  #contact-container form fieldset input[type=email],
+  #contact-container form fieldset textarea {
     width: 800px;
   }
 }

@@ -19,7 +19,7 @@ body {
 
 header {
   width: 100vw;
-  height: 300px;
+  height: auto;
   background-color: #25251f;
 }
 header .header-content {
@@ -147,7 +147,7 @@ a {
   font-size: 2.3rem;
   font-weight: 700;
   place-content: center;
-  margin-top: 10px;
+  margin-top: 80px;
 }
 .aboutme .aboutme-content .mobile-box .commission-button a {
   color: #25251f;
@@ -336,21 +336,24 @@ footer p:nth-child(1) {
   body {
     font-size: 2rem;
   }
-  h1 {
+  header h1 {
     font-size: 3rem;
     margin-left: 15px;
   }
-  #menu-button + label .fa-bars {
+  header #menu-button + label .fa-bars {
     margin-right: 30px;
   }
-  #menu-button + label .fa-xmark {
+  header #menu-button + label .fa-xmark {
     margin-right: 35px;
   }
-  nav ul {
+  header nav ul {
     margin-top: 15px;
   }
-  nav ul li a {
+  header nav ul li a {
     font-size: 2.5rem;
+  }
+  header #header-image-box {
+    height: 400px;
   }
   .mobile-box {
     align-items: center;
@@ -359,6 +362,9 @@ footer p:nth-child(1) {
   .aboutme {
     padding-top: 100px;
     flex-direction: column;
+  }
+  .aboutme .aboutme-content .mobile-box .commission-button {
+    margin-top: 0px;
   }
   .card-container {
     display: flex;
@@ -373,36 +379,36 @@ footer p:nth-child(1) {
     width: 670px;
   }
   #contact-container form fieldset input[type=text],
-#contact-container form fieldset input[type=email],
-#contact-container form fieldset textarea {
+  #contact-container form fieldset input[type=email],
+  #contact-container form fieldset textarea {
     width: 670px;
   }
 }
 @media screen and (min-width: 1024px) {
-  #header-image-box {
+  header #header-image-box {
     padding-bottom: 500px;
   }
-  h1 {
+  header h1 {
     margin-left: 25px;
   }
-  #header-box nav {
+  header #header-box nav {
     position: relative;
   }
-  #header-box nav label,
-#header-box nav input {
+  header #header-box nav label,
+  header #header-box nav input {
     display: none;
   }
-  #header-box nav ul {
+  header #header-box nav ul {
     display: inline;
     position: relative;
     margin-right: 35px;
   }
-  #header-box nav ul li {
+  header #header-box nav ul li {
     display: inline;
     font-size: 0.5rem;
   }
   .aboutme {
-    padding-top: 300px;
+    padding-top: 215px;
     padding-bottom: 60px;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -427,8 +433,8 @@ footer p:nth-child(1) {
     margin: 0 auto;
   }
   #contact-container form fieldset input[type=text],
-#contact-container form fieldset input[type=email],
-#contact-container form fieldset textarea {
+  #contact-container form fieldset input[type=email],
+  #contact-container form fieldset textarea {
     width: 800px;
   }
 }
