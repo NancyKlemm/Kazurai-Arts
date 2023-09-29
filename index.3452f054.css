@@ -20,7 +20,7 @@ body {
 
 header {
     width: 100vw;
-    height: 300px;
+    height: auto;
     background-color: #25251f
 }
 
@@ -161,7 +161,7 @@ a {
     border-radius: 12px;
     place-content: center;
     margin-top: 10px;
-    padding: 10px;
+    padding: 80px;
     font-size: 2.3rem;
     font-weight: 700;
     display: flex
@@ -402,6 +402,10 @@ footer p:nth-child(1) {
         font-size: 2.5rem
     }
 
+    #header-image-box {
+        height: 400px;
+    }
+    
     .mobile-box {
         align-items: center;
         gap: 60px
@@ -410,6 +414,10 @@ footer p:nth-child(1) {
     .aboutme {
         flex-direction: column;
         padding-top: 100px
+    }
+
+    .aboutme aboutme-content mobile-box commission-button {
+        margin-top: 0px;
     }
 
     .card-container {
@@ -464,7 +472,7 @@ footer p:nth-child(1) {
         flex-flow: column;
         justify-content: center;
         gap: 20px;
-        padding-top: 300px;
+        padding-top: 215px;
         padding-bottom: 60px
     }
 
