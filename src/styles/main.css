@@ -137,11 +137,11 @@ a {
   flex-wrap: wrap;
   place-content: center;
 }
-.aboutme .aboutme-content .mobile-box .commission-button {
+.aboutme .aboutme-content .mobile-box .arttrade-button {
   display: flex;
   background-color: #6befaf;
   width: 250px;
-  height: 50px;
+  height: auto;
   border-radius: 12px;
   padding: 10px;
   font-size: 2.3rem;
@@ -149,11 +149,11 @@ a {
   place-content: center;
   margin-top: 80px;
 }
-.aboutme .aboutme-content .mobile-box .commission-button a {
+.aboutme .aboutme-content .mobile-box .arttrade-button a {
   color: #25251f;
   transition: color 300ms ease-in;
 }
-.aboutme .aboutme-content .mobile-box .commission-button:hover a {
+.aboutme .aboutme-content .mobile-box .arttrade-button:hover a {
   color: #ffffff;
 }
 .aboutme .aboutme-content .mobile-box #about-me {
@@ -363,7 +363,7 @@ footer p:nth-child(1) {
     padding-top: 100px;
     flex-direction: column;
   }
-  .aboutme .aboutme-content .mobile-box .commission-button {
+  .aboutme .aboutme-content .mobile-box .arttrade-button {
     margin-top: 0px;
   }
   .card-container {

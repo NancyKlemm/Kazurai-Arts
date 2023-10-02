@@ -137,7 +137,7 @@ a {
   flex-wrap: wrap;
   place-content: center;
 }
-.aboutme .aboutme-content .mobile-box .commission-button {
+.aboutme .aboutme-content .mobile-box .arttrade-button {
   display: flex;
   background-color: #6befaf;
   width: 250px;
@@ -149,11 +149,11 @@ a {
   place-content: center;
   margin-top: 10px;
 }
-.aboutme .aboutme-content .mobile-box .commission-button a {
+.aboutme .aboutme-content .mobile-box .arttrade-button a {
   color: #25251f;
   transition: color 300ms ease-in;
 }
-.aboutme .aboutme-content .mobile-box .commission-button:hover a {
+.aboutme .aboutme-content .mobile-box .arttrade-button:hover a {
   color: #ffffff;
 }
 .aboutme .aboutme-content .mobile-box #about-me {
