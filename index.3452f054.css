@@ -156,7 +156,7 @@ a {
 
 .aboutme .aboutme-content .mobile-box .commission-button {
     width: 250px;
-    height: 50px;
+    height: auto;
     background-color: #6befaf;
     border-radius: 12px;
     place-content: center;
