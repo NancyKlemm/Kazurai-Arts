@@ -148,6 +148,7 @@ a {
   font-weight: 700;
   place-content: center;
   margin-top: 80px;
+  border: none;
 }
 .aboutme .aboutme-content .mobile-box .arttrade-button a {
   color: #25251f;
