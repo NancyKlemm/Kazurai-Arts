@@ -400,6 +400,9 @@ footer p:nth-child(1) {
   body {
     font-size: 2rem;
   }
+  header #header-box #menu-button:checked ~ ul {
+    top: 90px;
+  }
 }
 @media screen and (min-width: 1024px) {
   header #header-image-box {

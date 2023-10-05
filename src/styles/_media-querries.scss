@@ -123,20 +123,14 @@ header {
     font-size: 2rem;
   }
 
-//   nav {
-//     ul {
-//     margin-top: 15px;
-//     position: relative;
-//     li {
-//       padding-top: 4rem;
-//       margin-top: 0rem;
-//       a {
-//         font-size: 2.5rem;
-//       }
-//     }
-//   }
-
-// }
+header {
+  #header-box {
+    #menu-button:checked ~ ul {
+      top: 90px;
+      
+    }
+  }
+}
 }
 // ================= Desktop ==================== //
 
