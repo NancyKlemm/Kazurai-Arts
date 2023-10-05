@@ -164,7 +164,8 @@ a {
     padding: 10px;
     font-size: 2.3rem;
     font-weight: 700;
-    display: flex
+    display: flex;
+    border: none
 }
 
 .aboutme .aboutme-content .mobile-box .commission-button a {
