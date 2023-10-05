@@ -470,8 +470,9 @@ footer p:nth-child(1) {
     }
     
     #header-image-box {
-        padding-bottom: 500px
-        width: 99.2vw
+        padding-bottom: 500px;
+        width: 99.2vw;
+        height: 100vh
     }
 
     h1 {
