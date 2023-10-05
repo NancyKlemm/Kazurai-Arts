@@ -402,7 +402,7 @@ footer p:nth-child(1) {
     font-size: 2rem;
   }
   header #header-box #menu-button:checked ~ ul {
-    top: 105px;
+    top: 100px;
   }
 }
 @media screen and (min-width: 1024px) {
