@@ -456,7 +456,7 @@ footer p:nth-child(1) {
 
 @media screen and (min-width:800px) {
    header #header-box #menu-button:checked ~ ul {
-        top: 90px
+        top: 110px
     }
 
 
