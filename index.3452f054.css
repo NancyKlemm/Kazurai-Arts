@@ -377,6 +377,20 @@ footer p:nth-child(1) {
     font-size: 2.5rem
 }
 
+@media screen and (min-width:623px) {
+    body {
+        font-size: 2rem
+    }
+
+    .aboutme {
+        padding-top: 100px;
+        flex-direction: column
+    }
+    .aboutme .aboutme-content .mobile-box .commission-button {
+        height: 5rem;
+    }
+}
+
 @media screen and (min-width:768px) {
     body {
         font-size: 2rem
@@ -439,6 +453,12 @@ footer p:nth-child(1) {
         width: 670px
     }
 }
+
+@media screen and (min-width:800px) {
+   header #header-box #menu-button:checked ~ ul {
+        top: 90px
+    }
+
 
 @media screen and (min-width:1024px) {
     #header-image-box {
